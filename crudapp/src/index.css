@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/src/image/library.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+
+}
+.book-card {
+  background-color: whitesmoke; 
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 0px rgba(233, 232, 232, 0.3);
+ }
